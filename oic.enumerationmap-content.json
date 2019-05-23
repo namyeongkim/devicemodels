@@ -119,6 +119,19 @@
       ]
     },
     {
+      "resourcetype": "oic.r.waterinfo",
+      "enumsupport": [
+        {
+          "propertydefinitions": [
+            {
+              "propertyname": "supportedwatertypes",
+              "supportedenumeration": ["cold","hot","normal", "soda","mineral","ice"]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "resourcetype": "oic.r.windowcovering",
       "enumsupport": [
         {
